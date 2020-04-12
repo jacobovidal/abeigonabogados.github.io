@@ -15921,7 +15921,8 @@ a.text-lightest:hover, a.text-lightest:focus {
   width: 150px; }
 
 .feature-icon {
-  max-width: 150px;
+  max-width: 135px;
+  min-height: 135px;
   margin: 0 auto;
   display: flex;
   align-items: center; }
@@ -15929,11 +15930,9 @@ a.text-lightest:hover, a.text-lightest:focus {
 .af-form {
   --primary-color: #084169;
   --border-focus-color: #084169;
+  --font-family: "Open Sans", sans-serif;
+  --label-font-weight: 600;
   --input-background: #fff; }
-
-.af-form .af-step-button, .af-step-next button[type=submit] {
-  margin: 0;
-  width: 100%; }
 
 .af-form .af-legal a {
   text-decoration: underline; }
